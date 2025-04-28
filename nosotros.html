@@ -10,27 +10,33 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a href="index.html"></a>
-        <img src="img/logo.png" alt="Logo de la empresa">
+    <header class="header">
+        <a href="index.html">
+        <img class="header__logo" src="img/logo.png" alt="Logo de la empresa">
+        </a>
     </header>
-    <div class="nav-bg">
-        <nav class="navegacion-principal contenedor">
-            <a href="nosotros.html">Nosotros</a>
-            <a href="clientes.html">Clientes</a>
-            <a href="proyectos.html">Proyectos</a>
-            <a href="contactos.html">Contactos</a>
-        </nav>
-    </div>
-    <section>
-        <h2>Sobre Nosotros</h2>
-    </section>
-    <main>
-        <h2>¿Porque trabajar con nosotros?</h2>
 
+    <nav class="navegacion">
+            <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+            <a class="navegacion__enlace" href="clientes.html">Clientes</a>
+            <a class="navegacion__enlace" href="proyectos.html">Proyectos</a>
+            <a class="navegacion__enlace" href="contactos.html">Contactos</a>
+    </nav>
+
+    
+    <main class="contenedor">
+        <h2>Sobre Nosotros</h2>
+
+            <div class="nosotros">
+                <div class="nosotros__contenido">
+    
+                </div>
+                <img class="nosotros__imagen" src="" alt="">
+            </div>
     </main>
-    <footer>
-        <p>Todos los derechos reservados. LoopWorks &copy; 2025</p>
+
+    <footer class="footer">
+        <p class="footer__texto">Todos los derechos reservados. LoopWorks &copy; 2025</p>
     </footer>
 </body>
 </html>
